@@ -51,7 +51,7 @@ function App() {
   }
   return (
     <>
-      <div className="md:flex md:justify-center md:items-center md:min-h-screen mb-14 mt-10">
+      <div className="md:flex md:justify-center md:items-center min-h-screen mb-14 mt-10">
         <div className="text-center">
           <div>
             <h1 className="text-white font-sans uppercase font-bold md:text-7xl text-3xl mb-12 first-letter:text-black">
