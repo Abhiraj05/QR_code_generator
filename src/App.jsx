@@ -5,6 +5,7 @@ import Spinner from "./Spinner.jsx";
 let flag = 0,
   qrcode;
 function App() {
+  // useState
   const [value, setValue] = useState("");
   const [radius, setradius] = useState("0.0");
   const [ecLevel, setecLevel] = useState("H");
@@ -16,6 +17,7 @@ function App() {
   const [spinnervisbility, setspinner] = useState(false);
   const [disabled,setdisabled]=useState(false)
 
+  // image generate function
   function generate() {
     if (value != "" && flag == 0) {
       setalert("");
@@ -44,6 +46,8 @@ function App() {
       setalert("please enter the url !");
     }
   }
+
+  // image download function
   function download() {
     qrcode = document.querySelector("canvas");
     const dataurl = qrcode.toDataURL("image/png");
