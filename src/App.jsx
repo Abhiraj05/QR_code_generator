@@ -41,7 +41,7 @@ function App() {
       flag = 1;
       
     } else {
-      setalert("please enter input value !");
+      setalert("please enter url !");
     }
   }
   function download() {
