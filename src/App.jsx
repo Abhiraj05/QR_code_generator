@@ -43,7 +43,7 @@ function App() {
       flag = 1;
       
     } else {
-      setalert("please enter the url !");
+      setalert("please enter the URL !");
     }
   }
 
