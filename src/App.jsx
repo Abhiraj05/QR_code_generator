@@ -163,7 +163,7 @@ function App() {
               </select>
             </div>
           </div>
-          <div className="flex justify-center items-center mt-5">
+          <div className="flex justify-center items-center mt-6">
             <h3 className="text-white font-sans capitalize font-medium text-lg ">
               {alert}
             </h3>
