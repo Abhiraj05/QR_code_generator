@@ -27,15 +27,14 @@ Follow the steps below to get the project up and running locally.
 ### Installation
 
 1. Clone the repository:
-
-   ```bash
-   https://github.com/Abhiraj05/QR_code_generator.git
-   ```
+ ```bash
+ https://github.com/Abhiraj05/QR_code_generator.git
+ ```
    
 2. Install the dependencies:
-  ```bash
-  npm install
-  ```
+```bash
+ npm install
+```
 
 3. Start the development server:
 ```bash
