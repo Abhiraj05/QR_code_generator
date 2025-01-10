@@ -58,7 +58,7 @@ function App() {
       <div className="md:flex md:justify-center md:items-center min-h-screen mb-14 mt-28 md:mt-10">
         <div className="text-center">
           <div>
-            <h1 className="text-white font-sans uppercase md:font-extrabold font-[1000] md:text-7xl text-3xl mb-12 first-letter:text-black">
+            <h1 className="text-white md:font-sans font-bebas tracking-widest uppercase md:font-extrabold font-[1000] md:text-7xl text-5xl mb-12 first-letter:text-black">
               qr code generator
             </h1>
           </div>
